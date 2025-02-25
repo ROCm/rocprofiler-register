@@ -79,6 +79,11 @@ add_subdirectory(rocprofiler)
 add_subdirectory(generic-tool)
 
 #
+# test app
+#
+add_subdirectory(bin)
+
+#
 # common to multiple tests
 #
 find_package(Threads REQUIRED)
